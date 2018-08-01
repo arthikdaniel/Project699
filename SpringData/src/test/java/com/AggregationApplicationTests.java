@@ -123,15 +123,6 @@ public class AggregationApplicationTests {
         sequenceRepo.deleteAll();
     }
 
-    @Test
-    public void saveStudents() {
-
-        Student student;
-        for (int i = 0; i < 1; i++) {
-            student = saveStudent("ST" + i);
-            studentRepo.save(student);
-        }
-    }
 
     @Test
     public void findById() {
@@ -162,22 +153,19 @@ public class AggregationApplicationTests {
 
         ObjectMapper mapper = new ObjectMapper();
         List<Course> myCourses =
-                mapper.readValue(new File("/Users/arthik.daniel/Dropbox/Project699/SpringData/src/test/resources/courses.json"),
+                mapper.readValue(new File("courses.json"),
                         new TypeReference<List<Course>>() {
                         });
 
         for (Course course : myCourses) {
-            String courseId = "C" + String.format("%05d", nextSequenceService.getNextSequence("course"));
+
+            String courseId = generateSequenceNo("C", "course");
             System.out.println("Course ID : " + courseId);
 
             course.setCourseId(courseId);
             courseRepo.save(course);
         }
     }
-
-
-
-
 
 
     @Test
@@ -187,12 +175,12 @@ public class AggregationApplicationTests {
 
         ObjectMapper mapper = new ObjectMapper();
         List<Student> myStudents =
-                mapper.readValue(new File("/Users/arthik.daniel/Dropbox/Project699/SpringData/src/test/resources/students.json"),
+                mapper.readValue(new File("students.json"),
                         new TypeReference<List<Student>>() {
                         });
 
         for (Student student : myStudents) {
-            String studentId = "ST" + String.format("%05d", nextSequenceService.getNextSequence("student"));
+            String studentId = generateSequenceNo("ST", "student");
             System.out.println("Student ID : " + studentId);
 
             student.setStudentId(studentId);
@@ -217,7 +205,6 @@ public class AggregationApplicationTests {
     }
 
 
-
     @Test
     public void testSaveMessageWithSequenceNo() throws IOException {
 
@@ -225,18 +212,16 @@ public class AggregationApplicationTests {
 
         ObjectMapper mapper = new ObjectMapper();
         List<Message> myList =
-                mapper.readValue(new File("/Users/arthik.daniel/Dropbox/Project699/SpringData/src/test/resources/messages.json"),
+                mapper.readValue(new File("messages.json"),
                         new TypeReference<List<Message>>() {
                         });
 
         for (Message message : myList) {
-            String id = "M" + String.format("%05d", nextSequenceService.getNextSequence("message"));
+            String id = generateSequenceNo("M", "message");
             System.out.println("Message ID : " + id);
             message.setMessageId(id);
             messageRepo.save(message);
         }
-
-
 
 
     }
@@ -252,7 +237,7 @@ public class AggregationApplicationTests {
 
         ObjectMapper mapper = new ObjectMapper();
         List<Attendance> myAttendances =
-                mapper.readValue(new File("/Users/arthik.daniel/Dropbox/Project699/SpringData/src/test/resources/attendances.json"),
+                mapper.readValue(new File("attendances.json"),
                         new TypeReference<List<Attendance>>() {
                         });
 
@@ -268,7 +253,7 @@ public class AggregationApplicationTests {
                 if (student.get().getCourse_ids() != null) {
                     for (int i = 0; i < st.getCourse_ids().size(); i++) {
                         if (st.getCourse_ids().get(i).getCourseId().equalsIgnoreCase(c.getCourseId())) {
-                            String attendanceId = "AT" + String.format("%05d", nextSequenceService.getNextSequence("attendance"));
+                            String attendanceId = generateSequenceNo("AT", "attendance");
                             System.out.println("Attendance ID : " + attendanceId);
 
                             attendance.setAttendanceId(attendanceId);
@@ -293,29 +278,6 @@ public class AggregationApplicationTests {
 
 
         }
-    }
-
-    private Student saveStudent(String id) {
-
-        ContactInfo contactInfo = new ContactInfo(id + " Addr Line 1", " Apt No " + id,
-                "Windsor", "Ontario", "Canada", id + "@gmail.com", id + "837292", "http://linkedin.com/" + id);
-
-        List<Guardian> guardians = new ArrayList<Guardian>();
-        guardians.add(new Guardian("Antony" + id, "Das" + id, contactInfo));
-        guardians.add(new Guardian("Daniel" + id, "Ramani" + id, contactInfo));
-
-        List<Course> coursesEnrolled = new ArrayList<Course>();
-        coursesEnrolled.add(new Course("C001", "JAVA", new Date(), new Date(), 25));
-        coursesEnrolled.add(new Course("C002", "SQL", new Date(), new Date(), 15));
-
-        List<RankScore> ranks = new ArrayList<RankScore>();
-        ranks.add(new RankScore("Green", new Date(), ""));
-        ranks.add(new RankScore("Brown", new Date(), ""));
-        ranks.add(new RankScore("Blue", null, ""));
-
-        Student student = new Student(id, "Arthik Daniel" + id, "Das" + id, DateUtils.asDate(LocalDate.of(1981, 12, 18)),
-                coursesEnrolled, contactInfo, guardians, ranks);
-        return student;
     }
 
     @Test
@@ -343,6 +305,7 @@ public class AggregationApplicationTests {
     }
 
     private AttendanceSummary getStudentAttendance(List<AttendanceSummary> attendanceSummaries, String c1) {
+
         return attendanceSummaries.stream().filter(attendance -> c1.equals(attendance.getCourseId())).findAny().get();
     }
 
