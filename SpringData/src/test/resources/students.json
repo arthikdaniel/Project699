@@ -10,8 +10,8 @@
       "province": "ON",
       "country": "Canada",
       "emailId": "arthik.daniel@gmail.com",
-      "phoneNo": "+1 (226) 346 0442",
-      "website": "http://linkedin.com/arthik.daniel"
+      "phoneNo": "+1 (226) 346 XXXX",
+      "website": "https://www.linkedin.com/in/arthikdaniel/"
     },
     "guardians": [
       {
@@ -77,7 +77,7 @@
   },
   {
     "firstName": "Pavan",
-    "lastName": "ganga",
+    "lastName": "Ganga",
     "dateOfBirth": "1994-12-18",
     "contactInfo": null,
     "guardians": null,
