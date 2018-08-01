@@ -1,0 +1,73 @@
+<link href="/css/bootstrap.css" rel="stylesheet" paymentId="bootstrap-css">
+<link href="/css/jquery.circliful.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-3.3.1.js"></script>
+<script src="/js/jquery.circliful.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/fontawesome.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+<link href="/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>number</th>
+    </tr>
+    <tr>
+        <td>James Bond</td>
+        <td>007</td>
+    </tr>
+    <tr>
+        <td>Lucipher</td>
+        <td>666</td>
+    </tr>
+</table>
+
+<br><br>
+
+<style>
+
+
+</style>
+
+
+<table class="Transposed">
+    <tr>
+        <th>name</th>
+        <th>number</th>
+    </tr>
+    <tr>
+        <td>James Bond</td>
+        <td>007</td>
+    </tr>
+    <tr>
+        <td>Lucipher</td>
+        <td>666</td>
+    </tr>
+</table>
+
+<style>
+    table.Transposed table {
+        border-collapse: collapse;
+    }
+
+    table.Transposed tr {
+        display: block;
+        float: left;
+    }
+
+    table.Transposed th, td {
+        display: block;
+        border: 1px solid black;
+    }
+</style>
+
+
+<Script>
+    $(document).ready(function () {
+
+        $('#mytable').on('click', function () {
+            $('#mytable').toggleClass('active');
+        });
+
+    });
+</Script>

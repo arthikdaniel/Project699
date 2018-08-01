@@ -1,0 +1,18 @@
+
+
+#container1 {
+    background-color: transparent;
+    background-size: 650px 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centered-form1 {
+    margin-top: 121px;
+    margin-bottom: 120px;
+}
+
+.centered-form1 .panel {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 4px 9px;
+}

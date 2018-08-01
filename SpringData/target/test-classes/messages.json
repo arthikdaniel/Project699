@@ -1,0 +1,56 @@
+[
+  {
+    "studentId": "ST00001",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post",
+    "messageDesc": "Test Post Message"
+  },
+  {
+    "studentId": "ST00001",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post2",
+    "messageDesc": "Test Post Message2"
+  },
+  {
+    "studentId": "ST00001",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post3",
+    "messageDesc": "Test Post Message3"
+  },
+  {
+    "studentId": "ST00002",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post",
+    "messageDesc": "Test Post Message"
+  },
+  {
+    "studentId": "ST00002",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post2",
+    "messageDesc": "Test Post Message2"
+  },
+  {
+    "studentId": "ST00002",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post3",
+    "messageDesc": "Test Post Message3"
+  },
+  {
+    "studentId": "ST00003",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post",
+    "messageDesc": "Test Post Message"
+  },
+  {
+    "studentId": "ST00003",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post2",
+    "messageDesc": "Test Post Message2"
+  },
+  {
+    "studentId": "ST00003",
+    "dateOfPost": "2018-07-24",
+    "messageTitle": "New Post3",
+    "messageDesc": "Test Post Message3"
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="PHP Server">
+    <serverData>
+      <paths name="PHP Server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="Project699" local="$PROJECT_DIR$/PHP" web="/Project699" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
