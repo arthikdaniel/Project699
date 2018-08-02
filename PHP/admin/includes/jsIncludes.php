@@ -7,6 +7,8 @@
 <script src="/js/fontawesome.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 <link href="/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+<script src="/js/bootstrap-datepicker.min.js"></script>
+<link href="/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css"/>
 
 
 

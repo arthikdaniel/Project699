@@ -1,11 +1,5 @@
 <?php include "includes/mainheader.php" ?>
 
-<?php
-if($debug =="true") {
-    var_dump($_SESSION);
-}
-?>
-
     <div class="container-fluid">
     <div class="row">
         <div class="wrapper">

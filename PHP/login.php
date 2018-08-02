@@ -2,7 +2,7 @@
     <div class="row">
         <?php
         include "admin/includes/header.php";
-        require("admin/includes/callRest.php");
+        include "admin/includes/callRest.php";
         ?>
     </div>
 </div>

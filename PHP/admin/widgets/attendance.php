@@ -29,10 +29,10 @@ foreach ($json_result as $attendance) {
 }
 
 if ($debug == "true") {
-    echo $student_id.'<br>'.$url.'<br>'.print_r($json_result);
-    var_dump($json_result);
-    //Check Final Map Output is OK
-    var_dump($totalHoursAttended);
+//    echo $student_id.'<br>'.$url.'<br>'.print_r($json_result);
+//    var_dump($json_result);
+//    //Check Final Map Output is OK
+//    var_dump($totalHoursAttended);
 }
 ?>
 

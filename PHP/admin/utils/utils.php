@@ -25,7 +25,7 @@ function formatIfDate($inputStr)
 {
     if (isValidDate($inputStr)) {
         $time = strtotime($inputStr);
-        $newformat = date('d-M-Y', $time);
+        $newformat = date('Y-m-d', $time);
         return $newformat;
     } else
         return $inputStr;

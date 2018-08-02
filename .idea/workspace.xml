@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b3ff3f9-4266-4d71-89e8-141d923fedc0" name="Default" comment="Cleanup unwanted files">
+    <list id="39481633-e8b3-497e-8e52-6ac586e6a725" name="ToCommit" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP/admin/edit/course_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/admin/edit/message_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/admin/edit/payment_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/admin/edit/student_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/admin/includes/addform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/admin/poc/rest_demos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/main/java/com/test.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/main/java/com/test2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/main/java/com/test3/Greeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/main/java/com/test3/GreetingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/src/test/resources/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/SpringData/src/test/resources/students.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/surefire-reports/TEST-com.AggregationApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/surefire-reports/com.AggregationApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/test-classes/attendances.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/test-classes/courses.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/test-classes/messages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringData/target/test-classes/students.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/PHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/PHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/includes/callRest.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/includes/callRest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/includes/editdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/includes/editdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/includes/jsIncludes.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/includes/jsIncludes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/includes/saveform.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/includes/saveform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/utils/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/utils/utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/admin/widgets/attendance.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/admin/widgets/attendance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/login.php" afterDir="false" />
+    </list>
+    <list default="true" id="4b3ff3f9-4266-4d71-89e8-141d923fedc0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringData/src/main/java/com/model/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringData/src/main/java/com/repo/DemoRepo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +39,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="eef9fcaf-e652-43c8-86ad-c323714be5c3" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHP/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/PHP/composer.phar</pharPath>
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="PHP">
       <favorite_root url="file://$PROJECT_DIR$/PHP" module="PHP" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
@@ -57,13 +71,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AggregationApplicationTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java">
+      <file leaf-file-name="rest_demos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/admin/poc/rest_demos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="304" column="5" lean-forward="true" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+            <state relative-caret-position="-79">
+              <caret line="57" column="63" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="57" selection-end-column="63" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/admin/edit/course_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveform.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/admin/includes/saveform.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/admin/edit/message_edit.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="payment_edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP/admin/edit/payment_edit.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -72,8 +114,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +124,7 @@
       <find>debug</find>
       <find>saveAttendances</find>
       <find>hdd</find>
-      <find />
+      <find>'fa '</find>
       <find>icon</find>
       <find>&amp;#x</find>
       <find>$student_id</find>
@@ -111,16 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PHP/admin/attendance/attendance_view.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/attendance/attendance_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/course/course_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/payment/payment_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/student/student_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/includes/sidebar.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/listing/attendance_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/listing/message_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/listing/payment_list.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/listing/student_list.php" />
         <option value="$PROJECT_DIR$/PHP/admin/listing/course_list.php" />
         <option value="$PROJECT_DIR$/PHP/admin/includes/mainheader.php" />
         <option value="$PROJECT_DIR$/PHP/admin/widgets/rank.php" />
@@ -135,21 +167,14 @@
         <option value="$PROJECT_DIR$/PHP/admin/poc/print_post.php" />
         <option value="$PROJECT_DIR$/PHP/admin/poc/post_php.php" />
         <option value="$PROJECT_DIR$/PHP/admin/edit/saveform.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/includes/editdata.php" />
         <option value="$PROJECT_DIR$/SpringData/src/test/resources/messages.json" />
         <option value="$PROJECT_DIR$/SpringData/src/test/resources/attendances.json" />
-        <option value="$PROJECT_DIR$/PHP/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/SpringData/src/main/java/com/repo/VirtualStudent.java" />
-        <option value="$PROJECT_DIR$/SpringData/src/main/java/com/Application.java" />
         <option value="$PROJECT_DIR$/SpringData/pom.xml" />
         <option value="$PROJECT_DIR$/SpringData/src/main/java/com/repo/IStudentRepo.java" />
         <option value="$PROJECT_DIR$/SpringData/src/main/java/com/model/Student.java" />
-        <option value="$PROJECT_DIR$/PHP/admin/utils/utils.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/dashboard.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/widgets/attendance.php" />
         <option value="$PROJECT_DIR$/PHP/admin/widgets/profile.php" />
         <option value="$PROJECT_DIR$/PHP/admin/includes/controlparams.php" />
-        <option value="$PROJECT_DIR$/PHP/login.php" />
         <option value="$PROJECT_DIR$/PHP/admin/poc/test.html" />
         <option value="$PROJECT_DIR$/PHP/admin/poc/view_student_subarrays.php" />
         <option value="$PROJECT_DIR$/PHP/admin/view/course_view.php" />
@@ -159,9 +184,26 @@
         <option value="$PROJECT_DIR$/PHP/admin/includes/viewdata.php" />
         <option value="$PROJECT_DIR$/PHP/admin/view/attendance_view.php" />
         <option value="$PROJECT_DIR$/PHP/admin/edit/attendance_edit.php" />
-        <option value="$PROJECT_DIR$/PHP/admin/includes/saveform.php" />
         <option value="$PROJECT_DIR$/SpringData/src/test/resources/students.json" />
         <option value="$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/editdata.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/utils/utils.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/PHP/vendor/autoload.php" />
+        <option value="$PROJECT_DIR$/PHP/composer.json" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/header.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/jsIncludes.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/PHP/login.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/widgets/attendance.php" />
+        <option value="$PROJECT_DIR$/SpringData/src/main/java/com/repo/DemoRepo.java" />
+        <option value="$PROJECT_DIR$/SpringData/src/main/java/com/Application.java" />
+        <option value="$PROJECT_DIR$/SpringData/src/main/java/com/model/Demo.java" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/callRest.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/edit/course_edit.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/poc/rest_demos.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/addform.php" />
+        <option value="$PROJECT_DIR$/PHP/admin/includes/saveform.php" />
       </list>
     </option>
   </component>
@@ -187,32 +229,99 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="5e96fb5d-9f12-4601-a0ef-e3843cf2c294" name="LOCAL" port="8888" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2.1" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/PHP/vendor/composer" />
+      <path value="$PROJECT_DIR$/PHP/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/PHP/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/PHP/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/PHP/vendor/guzzlehttp/psr7" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project699" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="listing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="poc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project699" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
@@ -255,35 +364,26 @@
               <item name="SpringData" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project699" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringData" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project699" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringData" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project699" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project699" type="462c0819:PsiDirectoryNode" />
               <item name="SpringData" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,10 +397,10 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/SpringData/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -313,11 +413,11 @@
       <recent name="com.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PHP/admin/poc" />
       <recent name="$PROJECT_DIR$/PHP/admin/edit" />
       <recent name="$PROJECT_DIR$/PHP/admin/includes" />
-      <recent name="$PROJECT_DIR$/SpringData/src/test/resources" />
-      <recent name="$PROJECT_DIR$/PHP/admin/view" />
+      <recent name="$PROJECT_DIR$/PHP/css" />
+      <recent name="$PROJECT_DIR$/PHP/js" />
+      <recent name="$PROJECT_DIR$/PHP/admin/poc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.model" />
@@ -326,11 +426,11 @@
       <recent name="com.repo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHP" />
       <recent name="$PROJECT_DIR$/PHP/admin/poc" />
       <recent name="$PROJECT_DIR$/PHP/admin/includes" />
       <recent name="$PROJECT_DIR$/PHP/admin/edit" />
       <recent name="$PROJECT_DIR$/PHP/admin/listing" />
-      <recent name="$PROJECT_DIR$/PHP/admin/attendance" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,29 +544,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AggregationApplicationTests.testSavePaymentsWithSequenceNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.AggregationApplicationTests" />
-      <option name="METHOD_NAME" value="testSavePaymentsWithSequenceNo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -484,6 +561,7 @@
       <patterns />
     </configuration>
     <configuration name="Deploy to PHP Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/PHP" port="8888" />
+    <configuration name="autoload.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/vendor/autoload.php" />
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringData" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
@@ -513,19 +591,19 @@
     <list>
       <item itemvalue="PHP Built-in Web Server.Deploy to PHP Server" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.AggregationApplicationTests.testSavePaymentsWithSequenceNo" />
       <item itemvalue="JUnit.AggregationApplicationTests.testSaveMessageWithSequenceNo" />
       <item itemvalue="JUnit.AggregationApplicationTests.testSaveAttendanceWithSequenceNo" />
       <item itemvalue="JUnit.AggregationApplicationTests.testSaveLogins" />
       <item itemvalue="JUnit.AggregationApplicationTests.saveAllFirstTestRecords" />
+      <item itemvalue="PHP Script.autoload.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.autoload.php" />
         <item itemvalue="JUnit.AggregationApplicationTests.saveAllFirstTestRecords" />
         <item itemvalue="JUnit.AggregationApplicationTests.testSaveLogins" />
         <item itemvalue="JUnit.AggregationApplicationTests.testSaveAttendanceWithSequenceNo" />
         <item itemvalue="JUnit.AggregationApplicationTests.testSaveMessageWithSequenceNo" />
-        <item itemvalue="JUnit.AggregationApplicationTests.testSavePaymentsWithSequenceNo" />
       </list>
     </recent_temporary>
   </component>
@@ -538,6 +616,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b3ff3f9-4266-4d71-89e8-141d923fedc0" name="Default" comment="" />
+      <changelist id="39481633-e8b3-497e-8e52-6ac586e6a725" name="ToCommit" comment="" />
       <created>1530818343808</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -564,7 +643,8 @@
       <workItem from="1532973942366" duration="12268000" />
       <workItem from="1533019490953" duration="21063000" />
       <workItem from="1533047621190" duration="4635000" />
-      <workItem from="1533115622002" duration="1438000" />
+      <workItem from="1533115622002" duration="13451000" />
+      <workItem from="1533178155562" duration="8799000" />
     </task>
     <task id="LOCAL-00001" summary="Config Files Updated">
       <created>1533115978963</created>
@@ -573,7 +653,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533115978963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleanup unwanted files">
+      <created>1533117588906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533117588907</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cleanup unwanted files">
+      <created>1533117647945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533117647945</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cleanup unwanted files">
+      <created>1533117655992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533117655992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -609,7 +710,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232008000" />
+    <option name="totallyTimeSpent" value="252820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="0" />
@@ -631,11 +732,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33001423" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.703966" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.4224751" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.80878186" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49608356" visible="true" weight="0.2453505" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959327" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49608356" visible="true" weight="0.18025751" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297568" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -650,27 +751,27 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.35352114" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.81" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.4224751" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.80878186" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50391644" side_tool="true" weight="0.2639485" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.55285716" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3253521" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3243243" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32859176" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49608356" weight="0.23819743" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49608356" visible="true" weight="0.18025751" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -715,13 +816,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Config Files Updated" />
     <MESSAGE value="Cleanup unwanted files" />
     <option name="LAST_COMMIT_MESSAGE" value="Cleanup unwanted files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -749,228 +851,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project699.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Attendance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/AttendanceRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/callRest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/test/resources/messages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/test/resources/attendances.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-rest-webmvc/3.0.8.RELEASE/spring-data-rest-webmvc-3.0.8.RELEASE.jar!/org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="201" column="24" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/VirtualStudent.java" />
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/IStudentRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/utils/utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/controlparams.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/view_table_transposed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="36" column="9" selection-start-line="32" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/post_php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/student/createStudent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/print_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/student/tabbed_create_student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/jsIncludes.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/mainheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/view_student_subarrays.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="10" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/view/course_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/view/payment_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/view/message_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/admin/view/student_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -999,55 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/viewdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/widgets/attendance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#241#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/editdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/admin/edit/attendance_edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/forms/create_student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/saveform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -1061,29 +896,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java.zip">
-      <provider selected="true" editor-type-id="apk-viewer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/test3/Greeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/test3/GreetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java.zip" />
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/test3/Greeting.java" />
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/test3/GreetingController.java" />
     <entry file="file://$PROJECT_DIR$/SpringData/src/test/java/com/AggregationApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="304" column="5" lean-forward="true" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+        <state relative-caret-position="98">
+          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/js/bootstrap-datepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/css/bootstrap-datepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/bin/php/php7.2.1/conf/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3397" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/jsIncludes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/utils/utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="23" column="93" lean-forward="true" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/mainheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/controlparams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/view/course_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/viewdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/griddata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/listing/course_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/widgets/attendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#241#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="9" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/AttendanceRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/AttendanceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/DemoRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/repo/ICourseRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/forms/create_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="8" selection-start-column="3" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/src/main/java/com/model/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringData/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6150">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/editdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/callRest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/addform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/edit/course_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/poc/rest_demos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="57" column="63" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="57" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/includes/saveform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/edit/message_edit.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/edit/student_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/admin/edit/payment_edit.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1114,7 +1209,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>bootstrap</last-edited>
+          <last-edited>jquery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1138,7 +1233,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringData</last-edited>
+          <last-edited>PHP</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
